@@ -1,0 +1,6 @@
+# Core dependency for deep PE parsing (imports/exports/imphash).
+# The toolkit degrades gracefully without it (header-level analysis only).
+pefile>=2023.2.7
+
+# Test runner.
+pytest>=7.0

@@ -1,0 +1,16 @@
+# Never commit target binaries or analysis output.
+samples/
+*.exe
+*.dll
+*.bin
+analysis-report/
+analysis/extracted/**
+reports/
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+.venv*
+.pytest_cache/
+*.egg-info/
